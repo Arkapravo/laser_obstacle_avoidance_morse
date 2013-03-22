@@ -1,0 +1,17 @@
+<package>
+  <description brief="laser_obstacle_avoidance_morse">
+
+     laser_obstacle_avoidance_morse
+
+  </description>
+  <author>koushik kabiraj</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/laser_obstacle_avoidance_morse</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+

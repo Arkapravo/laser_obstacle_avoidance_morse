@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- obstacle avoidance -->
+  <node pkg="laser_obstacle_avoidance_morse" type="obs_pr2" name="obs_pr2" output="screen">
+   <remap from="base_controller/command" to="pr2/Motion_Controller" />
+   <remap from="base_scan" to="pr2/Sick" />
+  </node>
+
+</launch>
+

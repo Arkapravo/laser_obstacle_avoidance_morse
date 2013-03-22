@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- obstacle avoidance -->
+  <node pkg="laser_obstacle_avoidance_morse" type="obs_atrv" name="obs_atrv" output="screen">
+   <remap from="base_controller/command" to="ATRV/Motion_Controller" />
+   <remap from="base_scan" to="ATRV/Sick" />
+  </node>
+
+</launch>
+
