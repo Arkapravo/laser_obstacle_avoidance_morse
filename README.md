@@ -10,7 +10,7 @@ http://www.warp1337.com/content/morse-and-ros-detailed-installation-howto-ubuntu
 These simulations are for PR2 and ATRV, employing the SICK laser
 
 1. Place the package in ROS PATH and build it
-2. Place the files _laser_obstacle_avoidance_morse/morse/atrv_laser.py_ and _laser_obstacle_avoidance_morse/morse/pr2_laser.py_ at _/opt/ros/morse/share/morse/examples/scenarii/_
+2. Place the files, _laser_obstacle_avoidance_morse/morse/atrv_laser.py_ and _laser_obstacle_avoidance_morse/morse/pr2_laser.py_ at _/opt/ros/morse/share/morse/examples/scenarii/_
 3. Start an instance of the master
 4. For PR2, start the MORSE simulation, _cd /opt/ros/morse/share/morse/examples/scenarii/ && morse run pr2_laser.py_ and start the ROS node, _roslaunch laser_obstacle_avoidance_morse obs_morse_pr2.launch_
 5. For ATRV, start the MORSE simulation, _cd /opt/ros/morse/share/morse/examples/scenarii/ && morse run pr2_laser.py_ and start the ROS node, _roslaunch laser_obstacle_avoidance_morse obs_morse_atrv.launch_
