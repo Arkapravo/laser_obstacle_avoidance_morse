@@ -7,6 +7,9 @@ Laser obstacle avoidance in MORSE via ROS nodes
 To marry ROS Fuerte with MORSE 0.6 in Ubuntu 12.04 see these instructions, 
 http://www.warp1337.com/content/morse-and-ros-detailed-installation-howto-ubuntu-precise
 
+ROS fuerte prefix -- _/opt/ros/fuerte_  
+MORSE prefix -- _/opt/ros/morse_
+
 These simulations are for PR2 and ATRV, employing the SICK laser
 
 1. Place the package in ROS PATH and build it
