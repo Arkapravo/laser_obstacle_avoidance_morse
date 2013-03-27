@@ -1,6 +1,6 @@
 laser_obstacle_avoidance_morse
 ==============================
-Author : Arkapravo Bhaumik (arkapravobhaumik@gmail.com)
+Author : Arkapravo Bhaumik (arkapravobhaumik@gmail.com) and Koushik Kabiraj (koushik.atti@gmail.com)
 
 Laser obstacle avoidance in MORSE via ROS nodes
 --------------------------------------------
